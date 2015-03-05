@@ -1,0 +1,6 @@
+D:\Projects\Exam System\Cleaned Exam System\ExamSystem\Common\bin\Debug\Common.dll
+D:\Projects\Exam System\Cleaned Exam System\ExamSystem\Common\bin\Debug\Common.pdb
+D:\Projects\Exam System\Cleaned Exam System\ExamSystem\Common\bin\Debug\log4net.dll
+D:\Projects\Exam System\Cleaned Exam System\ExamSystem\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Exam System\Cleaned Exam System\ExamSystem\Common\obj\Debug\Common.dll
+D:\Projects\Exam System\Cleaned Exam System\ExamSystem\Common\obj\Debug\Common.pdb

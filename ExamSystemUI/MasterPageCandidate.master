@@ -1,0 +1,230 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageCandidate.master.cs" Inherits="MasterPageCandidate" %>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head id="Head1" runat="server">
+<title>Exam System</title>
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+<meta name="Author" content="Stu Nicholls" />
+<%--<link rel="stylesheet" type="text/css" href="Css/default.css">--%>
+<style type="text/css">
+
+body {
+  margin:0;
+  border:0;
+  padding:0;
+  height:100%; 
+  max-height:100%; 
+  overflow: hidden; 
+  }
+
+#header {
+  position:absolute; 
+  top:0; 
+  left:0; 
+  width:100%; 
+  height:85px; 
+  overflow:auto; 
+  }
+
+#footer {
+  position:absolute; 
+  bottom:0; 
+  left:0;
+  width:100%; 
+  height:30px; 
+  overflow:auto; 
+  text-align:right; 
+  }
+
+#contents {
+  position:fixed;
+  top:80px;
+  left:0;
+  bottom:30px; 
+  right:0; 
+  overflow:auto; 
+  }
+
+/* for internet explorer */
+
+* html body {
+  padding:80px 0 30px 0; 
+  }
+
+* html #contents {
+  height:100%; 
+  width:100%; 
+  }
+
+
+</style>
+<!-- dd menu -->
+<script type="text/javascript">
+<!--
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose; 
+// -->
+
+var flagForShowTime = 1;
+    
+var GlobalTotalSeconds=0;
+
+function showTime(remainTotalSecond)
+{
+    //alert(remainTotalSecond);
+   
+    if(flagForShowTime>0)
+    {
+        GlobalTotalSeconds = remainTotalSecond;
+       
+        //alert(GlobalTotalSeconds);
+    }
+   
+    flagForShowTime=0;
+   
+    //alert(GlobalTotalSeconds+1);
+   
+    var divID = document.getElementById('divTime');
+   
+    var remainSecond = GlobalTotalSeconds % 60;
+   
+    var remainTotalMinute =parseInt(GlobalTotalSeconds/60);
+   
+    var remainMinute = remainTotalMinute % 60;
+   
+    var remainTotalHour = parseInt(remainTotalMinute/60);
+    
+    if(remainSecond==0 && remainMinute==0 && remainTotalHour==0)
+    {
+        window.location="ExamFinish.aspx";
+    }
+    
+    divID.innerHTML="Remain Time is:  "+remainTotalHour+" Hour  "+remainMinute+" Minute  "+remainSecond+" Second";
+   
+    GlobalTotalSeconds=GlobalTotalSeconds-1;
+   
+    //alert(GlobalTotalSeconds);
+    var t= setTimeout('showTime(0)',1000);
+}
+
+//function ShowTime(EndTime)
+//{
+//    var tdID= document.getElementById('forTime');
+//    
+//    tdID.innerHTML = EndTime;
+//    
+//    var today=new Date();
+//    var h=today.getHours();
+//    var m=today.getMinutes();
+//    var s=today.getSeconds();
+//    
+//    var str = new String();
+//    
+//    var remainHour=2;
+//    var remainMinute=30;
+//    var remainSecond=40;
+//    
+//    
+//}
+
+</script>
+
+</head>
+<body runat="server" id="MainBody">
+    <div id="header">
+    <img src="Images/HeaderFooter/header.bmp" width="100%" height="80px" /></div>
+
+    <div id="footer">
+    <img src="Images/HeaderFooter/footer.bmp" width="100%" height="30px"/></div>
+    
+    <div id="contents">
+      
+            <form id="form1" runat="server">
+                <table width="100%" cellSpacing="0" cellPadding="0" border="0" style="margin:0">
+                    <tr>
+                        <td colspan="2">
+                            <br />  
+                        </td>
+                    </tr>
+                    <tr align="right">
+                        <td id="divTime" style="background-color: whitesmoke; height:25px; border:none;font-size:larger; font-style:oblique; color:Brown" align="left">
+                        </td>
+                        <td style="background-color: whitesmoke; height:25px; border:none;" align="right">
+                            <a href="CandidateLogin.aspx">Logout</a>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="center" valign="top" colspan="2">
+                            <br />
+                            <br />
+                            <table cellpadding="0" cellspacing="0" border="1" style="border:1px solid #296488; margin:none; width:100%; height:500px">
+                                <tr>
+                                    <td align="left" valign="top" style="border:none">
+                                        <asp:ContentPlaceHolder ID="CPH_MainCandidate" runat="server">
+                                        </asp:ContentPlaceHolder>     
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height:10px" colspan="2">
+                        
+                        </td>
+                    </tr>
+                </table>
+            
+            </form>
+        
+   
+    
+    </div>
+    
+    
+   
+</body>
+</html>

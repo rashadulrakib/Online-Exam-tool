@@ -1,0 +1,6 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\Pyxisnet.Logging.dll
+bin\Debug\Pyxisnet.Logging.pdb
+bin\Debug\log4net.dll
+obj\Debug\Pyxisnet.Logging.dll
+obj\Debug\Pyxisnet.Logging.pdb

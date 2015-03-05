@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MailForSystemUserEntry>
+  <From>rr@pyxisnet.com</From>
+  <Subject>Welcome to Exam System</Subject>
+  <BodyStart>We are happy to add you</BodyStart>
+  <BodyEnd>Yours trully,HR Admin</BodyEnd>
+</MailForSystemUserEntry>

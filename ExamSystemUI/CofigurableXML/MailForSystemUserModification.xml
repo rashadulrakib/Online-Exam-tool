@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MailForSystemUserModification>
+  <From>rr@pyxisnet.com</From>
+  <Subject>ID,Password,Email have Changed</Subject>
+  <BodyStart>We are happy to change your information</BodyStart>
+  <BodyEnd>Yours trully,HR Admin</BodyEnd>
+</MailForSystemUserModification>

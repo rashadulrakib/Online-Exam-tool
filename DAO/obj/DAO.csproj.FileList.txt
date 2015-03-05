@@ -1,0 +1,14 @@
+bin\Debug\DAO.dll
+bin\Debug\DAO.pdb
+bin\Debug\Common.dll
+bin\Debug\Entity.dll
+bin\Debug\Utility.dll
+bin\Debug\Utility.pdb
+bin\Debug\Common.pdb
+bin\Debug\Entity.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DAO.dll
+obj\Debug\DAO.pdb
+bin\Debug\log4net.dll
+bin\Debug\Pyxisnet.Logging.dll
+bin\Debug\Pyxisnet.Logging.pdb

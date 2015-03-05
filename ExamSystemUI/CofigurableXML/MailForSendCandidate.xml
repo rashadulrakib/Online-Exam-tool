@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MailForCandidate>
+  <From>rr@pyxisnet.com</From>
+  <Subject>Invitation For Interview</Subject>
+  <BodyStart>You have been preselected for this interview.</BodyStart>
+  <BodyEnd>Yours trully,HR Admin</BodyEnd>
+</MailForCandidate>
+

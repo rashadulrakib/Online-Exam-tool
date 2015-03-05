@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<DBInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ConnectionString>data source=rakib; database=DBExamSystemUpdate; uid=sa; pwd=Pass@123;  Max Pool Size=100; Min Pool Size=0</ConnectionString>
+</DBInfo>

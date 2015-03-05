@@ -1,0 +1,101 @@
+<center>
+                            <table cellpadding="0" cellspacing="0" border="0" style="border:1px solid #296488; width:453px">
+                                <tr>
+                                    <td>
+                                    <ul id="sddm">
+	<li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()" style="border-right:1px solid #296488">Home <img border="0" style="margin:0"  src="Images/arrow.gif" /></a>
+		<div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<table cellSpacing="0" cellPadding="0" border="0" style="margin:0">
+		    <tr>
+		        <td style="border-bottom:none">
+		            <a href="MasterContainer.aspx?option=SystemUserMainPage">Go to Home</a>    
+		        </td>
+		    </tr>
+		</table>
+		</div>
+	</li>
+	<li ><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()" style="border-right:1px solid #296488">Question <img border="0" style="margin:0"  src="Images/arrow.gif" /></a>
+		<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<table cellSpacing="0" cellPadding="0" border="0" style="margin:0">
+		    <tr>
+		        <td style="border-bottom:1px solid #296488">
+		            <a href="MasterContainer.aspx?option=QuestionSetup">Question Setup</a>        
+		        </td>
+		    </tr>
+		    <tr>
+		        <td style="border-bottom:1px solid #296488">
+		            <a href="MasterContainer.aspx?option=QuestionSetupRemove">Question Remove</a>        
+		        </td>
+		    </tr>
+		    <tr>
+		        <td style="border-bottom:none">
+		            <a href="MasterContainer.aspx?option=QuestionReportForAnExam">Questions of Exam</a>        
+		        </td>
+		    </tr>
+		</table>
+		
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()" style="border-right:1px solid #296488">Candidate <img border="0" style="margin:0"  src="Images/arrow.gif" /></a>
+		<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<table cellSpacing="0" cellPadding="0" border="0" style="margin:0">
+		    <tr>
+		        <td style="border-bottom:1px solid #296488">
+		           <a href="MasterContainer.aspx?option=CandidateSetup">Candidate Setup</a>             
+		        </td>
+		    </tr>
+		    <tr>
+		        <td style="border-bottom:1px solid #296488">
+		           <a href="MasterContainer.aspx?option=CandidateModification">Candidate Modification</a>             
+		        </td>
+		    </tr>
+		    <tr>
+		        <td style="border-bottom:none">
+		           <a href="MasterContainer.aspx?option=CandidateExtend">Add From Existing Candidates</a>             
+		        </td>
+		    </tr>
+		</table>
+		</div>
+	</li>
+	
+	<li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()" style="border-right:1px solid #296488">Evaluate <img border="0" style="margin:0"  src="Images/arrow.gif" /></a>
+		<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<table cellSpacing="0" cellPadding="0" border="0" style="margin:0">
+		    <tr>
+		        <td style="border-bottom:none">
+		           <a href="MasterContainer.aspx?option=EvaluateCandidate">Evaluate Candidate</a>             
+		        </td>
+		    </tr>
+		</table>
+		
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()" style="border-right:1px solid #296488">Result <img border="0" style="margin:0"  src="Images/arrow.gif" /></a>
+		<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<table cellSpacing="0" cellPadding="0" border="0" style="margin:0">
+		    <tr>
+		        <td style="border-bottom:none">
+		           <a href="MasterContainer.aspx?option=ResultView">Result View</a>             
+		        </td>
+		    </tr>
+		</table>
+		
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m6')" onmouseout="mclosetime()" style="border-right:none">Logout <img border="0" style="margin:0"  src="Images/arrow.gif" /></a>
+		<div id="m6" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<table cellSpacing="0" cellPadding="0" border="0" style="margin:0">
+		    <tr>
+		        <td style="border-bottom:none">
+		           <a href="MasterContainer.aspx?option=Default">Go to Login</a>             
+		        </td>
+		    </tr>
+		</table>
+		
+		</div>
+	</li>
+</ul>
+ </td>
+                                </tr>
+                            </table>
+                        </center>

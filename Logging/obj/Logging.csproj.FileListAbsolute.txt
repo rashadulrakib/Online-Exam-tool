@@ -1,0 +1,6 @@
+D:\Projects\Exam System\Cleaned Exam System\ExamSystem\Logging\bin\Debug\Pyxisnet.Logging.dll
+D:\Projects\Exam System\Cleaned Exam System\ExamSystem\Logging\bin\Debug\Pyxisnet.Logging.pdb
+D:\Projects\Exam System\Cleaned Exam System\ExamSystem\Logging\bin\Debug\log4net.dll
+D:\Projects\Exam System\Cleaned Exam System\ExamSystem\Logging\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Exam System\Cleaned Exam System\ExamSystem\Logging\obj\Debug\Pyxisnet.Logging.dll
+D:\Projects\Exam System\Cleaned Exam System\ExamSystem\Logging\obj\Debug\Pyxisnet.Logging.pdb
